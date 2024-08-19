@@ -1,0 +1,47 @@
+# Node modules
+node_modules/
+
+# Expo files
+.expo/
+.expo-shared/
+
+# Babel and ESLint cache
+babel.config.js
+*.babelrc
+*.eslintrc.js
+*.eslintrc
+*.eslintcache
+
+# React Native files
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+*.swm
+*.DS_Store
+ios/
+android/
+
+# MacOS-specific files
+.DS_Store
+
+# Webpack files
+dist/
+build/
+*.js.map
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+expo-error.log
+
+# React Native Packager
+# Generated files
+.expo/
+.expo-shared/
+.expo/.expo-source
+.expo/settings.json
+.expo/web-build/
+web-build/

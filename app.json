@@ -1,0 +1,49 @@
+{
+  "expo": {
+    "name": "Music Player",
+    "slug": "MusicPlayer",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "platforms": ["android", "ios", "web"],
+
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.manjakahasina.MusicPlayer",
+      "infoPlist": {
+        "UIBackgroundModes": ["audio"]
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "permissions": []
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "scheme": "mycoolredirect",
+    "plugins": [
+      "@config-plugins/react-native-webrtc",
+      "expo-av",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Kaiza lessy! homena alalana va ilay entana ??",
+          "cameraPermission": "Ary ilay camera ahoana?",
+          "microphonePermission": "De ilay micro tsy hadino",
+          "savePhotosPermission": "Allow to save photo?"
+        }
+      ],
+      "expo-router"
+    ]
+  }
+}
